@@ -1,0 +1,172 @@
+/*GLOBAL CSS, HTML ELEMENTS*/
+
+
+body {
+  font-family: Kanit;
+  background-color: #000000;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Kanit', sans-serif;
+  font-weight: bolder;
+}
+
+/*TITLE SECTION*/
+#title {
+  color: white;
+  text-align: left;
+}
+
+.navbar-brand {
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 300%;
+}
+
+.navbar {
+  padding-bottom: 5%;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 105%;
+  transition: 0.1s;
+}
+
+.nav-item:hover{
+  transform:scale(1.1);
+}
+
+.mn-hdg {
+  padding-top: 10%;
+}
+
+.download-btn {
+  margin: 0 3% 5% 0;
+  transition: 0.1s;
+}
+
+.download-btn:hover{
+  transform:scale(1.1);
+}
+
+
+
+
+/*DESCRIPTION SECTION*/
+#description {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+
+}
+
+.about {
+  padding: 2% 8%;
+  color: white;
+  position: relative;
+}
+
+.aboutone {
+  padding: 1% 10%;
+  line-height: 1.6;
+}
+
+.aboutwo {
+  color: transparent;
+  font-size: 6rem;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  line-height: 120px;
+  opacity: 100%;
+}
+
+.hdg {
+  color: transparent;
+  font-size: 10rem;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+/*testimonial*/
+#testimonials{
+  padding: 3% 10%;
+
+  color: white;
+}
+
+.testimonial-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#pricing{
+  padding: 3% 10%;
+  color: white;
+
+}
+
+.card {
+  background-color: black;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  transition: 0.1s;
+}
+
+.card:hover{
+  transform:scale(1.03);
+}
+
+.pricing-title{
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-size: 400%;
+}
+
+.subtitle{
+  font-weight: lighter;
+  font-size: 130%;
+  margin-top: 0px;
+}
+
+/*CTA*/
+#cta{
+  padding: 18% 10%;
+}
+
+.cta-btn{
+  margin: 10px;
+  margin-top: 20px
+}
+
+
+
+/*Media Query BreakPoints*/
+@media (max-width: 992px){
+  .title-img{
+    width: 504px;
+    height: 296px;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+.icon{
+  color: grey;
+  margin: 15px;
+}
+
+.icon:hover{
+  color: white;
+}
